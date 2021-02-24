@@ -1,6 +1,6 @@
 #praktika_urok6_3
 
-print(" Введите четыри положительных числа")
+print("Введите четыри положительных числа")
 number1 = int(input())
 number2 = int(input())
 number3 = int(input())
