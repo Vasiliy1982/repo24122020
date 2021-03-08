@@ -11,7 +11,7 @@ if number > 100 or number < 1:
 number_krat3 = number%3
 number_krat5 = number%5
 
-if number_krat3 == 0 and number_krat3 ==0:
+if number_krat3 == 0 and number_krat5 ==0:
     print("Fizz Buzz")
 elif number_krat5 == 0:
     print("Buzz")
