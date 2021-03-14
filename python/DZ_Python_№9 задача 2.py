@@ -16,10 +16,8 @@ while try_user != number:
 
     if try_user > number:
         try_user = int(input("Загаданное число меньше, введите число: "))
-
     elif try_user < number and try_user > 0:
         try_user = int(input("Загаданное число больше, введите число: "))
-# для выхода из программы
     elif try_user == 0:break
-# ответ совпадает с загданным
+
 if try_user == number:print("Верно. Вы угадали число за",counter,"попыток")
